@@ -38,8 +38,6 @@ def mat_mult(self, B):
             acum = 0
             for k in range(self.n):
                 acum += self.getelem(i, k) * B.getelem(k, j)
-            #fila.append(acum)
-        #salida.append(fila)
             salida.append(acum)
     return salida
 
