@@ -33,7 +33,6 @@ B_matrix = Matrix(B_data, 2, 2)
 def mat_mult(self, B):
     salida = []
     for i in range(self.m):
-        fila = []
         for j in range(B.n):
             acum = 0
             for k in range(self.n):
